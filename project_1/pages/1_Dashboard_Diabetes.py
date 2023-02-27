@@ -14,7 +14,7 @@ dir_of_interest = os.path.join(PARENT_DIR, "resources")
 IMAGE_PATH = os.path.join(dir_of_interest, "images", "diabetics_cover.jpeg")
 DATA_PATH = os.path.join(dir_of_interest, "data", "diabetes-dataset.csv")
 
-st.title("Dashboard - Iris Data")
+st.title("Dashboard - Diabetes Data")
 
 img = image.imread(IMAGE_PATH)
 st.image(img)
